@@ -1,0 +1,60 @@
+nav {
+  position: absolute;
+  width: 237px;
+  height: 1200px;
+  left: -8.5px;
+  top: -9.07px;
+  background: #fafbfd;
+}
+h3 {
+  position: absolute;
+  width: 114px;
+  height: 20px;
+  left: 48px;
+  top: 38px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+}
+span {
+  color: #f7542e;
+}
+.nav-text {
+  position: absolute;
+  height: 20px;
+  left: 48px;
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #9e9e9e;
+}
+.color {
+  width: 62px;
+  top: 180px;
+}
+.typography {
+  width: 80px;
+  top: 225px;
+}
+.spaces {
+  width: 47px;
+  top: 277px;
+}
+.buttons {
+  width: 53px;
+  top: 327px;
+  font-weight: bold;
+  color: #090f31;
+}
+.inputs {
+  width: 45px;
+  top: 375px;
+}
+.grid {
+  width: 29px;
+  top: 430px;
+}

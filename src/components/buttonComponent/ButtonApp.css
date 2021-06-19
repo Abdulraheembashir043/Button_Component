@@ -1,0 +1,391 @@
+.heading {
+  position: absolute;
+  width: 93px;
+  height: 36px;
+  left: 320px;
+  top: 30px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #4f4f4f;
+}
+.textFont {
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
+.titleFont {
+  font-family: Ubuntu Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+}
+.default {
+  position: absolute;
+  width: 81px;
+  height: 36px;
+  left: 319px;
+  top: 141px;
+  background: #e0e0e0;
+  box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+  border: none;
+  border-radius: 6px;
+  color: #3f3f3f;
+}
+.default-title {
+  position: absolute;
+  width: 60px;
+  height: 12px;
+  left: 319px;
+  top: 107px;
+  color: #333333;
+}
+.default-right {
+  left: 555px;
+}
+.default-right:hover,
+.default-right:focus {
+  background: #aeaeae;
+}
+.default-right-title {
+  position: absolute;
+  width: 96px;
+  height: 12px;
+  left: 550px;
+  top: 107px;
+  color: #828282;
+}
+.outline {
+  position: absolute;
+  width: 88px;
+  height: 36px;
+  left: 319px;
+  top: 246px;
+  border: 1px solid #3d5afe;
+  border-radius: 6px;
+  color: #3d5afe;
+}
+.outline-title {
+  position: absolute;
+  width: 168px;
+  height: 12px;
+  left: 315px;
+  top: 210px;
+  color: #333333;
+}
+.outline-right {
+  left: 555px;
+}
+.outline-right:hover,
+.outline-right:focus {
+  background: rgba(41, 98, 255, 0.1);
+}
+.outline-right-title {
+  top: 210px;
+}
+.text {
+  position: absolute;
+  width: 49px;
+  height: 20px;
+  left: 319px;
+  top: 357px;
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #3d5afe;
+  border: none;
+  background: none;
+}
+.text-right {
+  position: absolute;
+  width: 88px;
+  height: 36px;
+  left: 555px;
+  top: 351px;
+  border-radius: 6px;
+}
+.text-title {
+  position: absolute;
+  width: 150px;
+  height: 12px;
+  left: 319px;
+  top: 320px;
+  color: #333333;
+}
+.text-right-title {
+  top: 320px;
+}
+.text-right:hover,
+.text-right:focus {
+  background: rgba(41, 98, 255, 0.1);
+}
+.disableShadow {
+  position: absolute;
+  width: 81px;
+  height: 36px;
+  left: 319px;
+  top: 453px;
+  color: #ffffff;
+  background: #3d5afe;
+  border: none;
+  border-radius: 6px;
+}
+.disableShadow-title {
+  position: absolute;
+  width: 144px;
+  height: 12px;
+  left: 319px;
+  top: 415px;
+  color: #333333;
+}
+.disabled {
+  position: absolute;
+  width: 88px;
+  height: 36px;
+  left: 319px;
+  top: 558px;
+  color: #9e9e9e;
+  background: #e0e0e0;
+  border: none;
+  border-radius: 6px;
+}
+.disabled-title {
+  position: absolute;
+  width: 114px;
+  height: 12px;
+  left: 319px;
+  top: 520px;
+  color: #000000;
+}
+.text-disabled {
+  position: absolute;
+  width: 62px;
+  height: 20px;
+  left: 558px;
+  top: 566px;
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #9e9e9e;
+  border: none;
+  background: none;
+}
+.text-disabled-title {
+  position: absolute;
+  width: 204px;
+  height: 12px;
+  left: 558px;
+  top: 520px;
+  color: #333333;
+}
+.icon {
+  position: absolute;
+  width: 105px;
+  height: 36px;
+  left: 319px;
+  top: 663px;
+  color: #ffffff;
+  background: #2962ff;
+  box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
+  border: none;
+  border-radius: 6px;
+  text-align: right;
+  padding-right: 15px;
+}
+.icon-title {
+  position: absolute;
+  width: 252px;
+  height: 12px;
+  left: 319px;
+  top: 625px;
+  color: #000000;
+}
+.img {
+  position: absolute;
+  left: 15px;
+  top: 8px;
+  bottom: 8.33%;
+  width: 20px;
+}
+.icon-right {
+  left: 651px;
+  text-align: left;
+  padding-left: 15px;
+}
+.icon-title-right {
+  left: 651px;
+}
+.img-right {
+  position: absolute;
+  right: 15px;
+  top: 8px;
+  bottom: 8.33%;
+  width: 20px;
+}
+.smSize {
+  position: absolute;
+  width: 73px;
+  height: 32px;
+  left: 319px;
+  top: 773px;
+  background: #2962ff;
+  box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+}
+.sm-title {
+  position: absolute;
+  width: 120px;
+  height: 12px;
+  left: 319px;
+  top: 730px;
+  color: #000000;
+}
+.mdSize {
+  position: absolute;
+  width: 81px;
+  height: 36px;
+  left: 523px;
+  top: 771px;
+  background: #2962ff;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+}
+.md-title {
+  position: absolute;
+  width: 120px;
+  height: 12px;
+  left: 523px;
+  top: 730px;
+  color: #000000;
+}
+.lgSize {
+  position: absolute;
+  width: 93px;
+  height: 42px;
+  left: 731px;
+  top: 768px;
+  background: #2962ff;
+  box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+}
+.lg-title {
+  position: absolute;
+  width: 120px;
+  height: 12px;
+  left: 731px;
+  top: 730px;
+  color: #000000;
+}
+.default2 {
+  top: 879px;
+}
+.default2-title {
+  top: 840px;
+  width: 156px;
+}
+.primary {
+  top: 879px;
+}
+.primary-title {
+  top: 840px;
+  width: 156px;
+}
+.secondary {
+  position: absolute;
+  width: 104px;
+  height: 36px;
+  left: 731px;
+  top: 879px;
+  background: #455a64;
+  box-shadow: 0px 2px 3px rgba(69, 90, 100, 0.2);
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+.secondary-title {
+  top: 840px;
+  width: 168px;
+}
+.danger {
+  position: absolute;
+  width: 81px;
+  height: 36px;
+  left: 971px;
+  top: 879px;
+  background: #d32f2f;
+  box-shadow: 0px 2px 3px rgba(211, 47, 47, 0.2);
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+.danger-title {
+  position: absolute;
+  width: 150px;
+  height: 12px;
+  left: 971px;
+  top: 840px;
+  color: #000000;
+}
+footer {
+  position: absolute;
+  width: 287px;
+  height: 17px;
+  left: 322px;
+  top: 1118px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #a9a9a9;
+}
+.downDef {
+  top: 984px;
+}
+.downDef:hover,
+.downDef:focus {
+  background: #aeaeae;
+}
+.downPri {
+  top: 984px;
+}
+.downPri:hover,
+.downPri:focus {
+  background: #0039cb;
+}
+.downSec {
+  top: 984px;
+}
+.downSec:hover,
+.downSec:focus {
+  background: #1c313a;
+}
+.downDan {
+  top: 984px;
+}
+.downDan:hover,
+.downDan:focus {
+  background: #9a0007;
+}
+.down-title {
+  top: 945px;
+}
